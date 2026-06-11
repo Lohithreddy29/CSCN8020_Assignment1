@@ -51,7 +51,5 @@ Off‑Policy Monte Carlo Prediction using:
 All code uses only **Python + NumPy**.
 
 ---
+  
 
-## ✍️ Author
-**Lohith Reddy**  
-Conestoga College – Software Engineering Technology
