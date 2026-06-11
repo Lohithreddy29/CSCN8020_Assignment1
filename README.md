@@ -6,17 +6,21 @@ All problems are implemented in a single Jupyter Notebook, with supporting Pytho
 
 ---
 
-## 📁 Repository Structure
+# 📁 Repository Structure
 
 | Path | Description |
 | --- | --- |
 | **CSCN8020_Assignment1/** | Root folder of the assignment |
-| ├── **CSCN8020_Assignment1.ipynb** | Full assignment notebook (Problems 1–4) |
-| ├── **README.md** | Project description |
-| └── **src/** | Source code folder |
+| ├── **CSCN8020_Assignment1.ipynb** | Full assignment notebook (Problems 1–4, math, code, talking points) |
+| ├── **README.md** | Project description and instructions |
+| ├── **requirements.txt** | Python dependencies for reproducibility |
+| ├── **.gitignore** | Excludes venv, cache, logs, and temporary files |
+| ├── **src/** | Source code folder (object‑oriented design) |
 | &nbsp;&nbsp;&nbsp;&nbsp;├── **environments.py** | Gridworld environment classes |
-| &nbsp;&nbsp;&nbsp;&nbsp;├── **agents.py** | Value Iteration, In‑Place VI, MC agents |
-| &nbsp;&nbsp;&nbsp;&nbsp;└── **utils.py** | Optional helper functions |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── **agents.py** | Value Iteration, In‑Place VI, and Monte Carlo agents |
+| &nbsp;&nbsp;&nbsp;&nbsp;└── **utils.py** | Helper utilities (logging, shared functions) |
+| └── **logs/** | Logging output folder |
+| &nbsp;&nbsp;&nbsp;&nbsp;└── **assignment.log** | Auto‑generated log file showing algorithm execution |
 ---
 
 ## 🧠 Contents
