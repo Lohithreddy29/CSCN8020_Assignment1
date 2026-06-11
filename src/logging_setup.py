@@ -23,7 +23,7 @@ def get_logger(name: str = "CSCN8020_Assignment1") -> logging.Logger:
     stream_handler.setFormatter(formatter)
     logger.addHandler(stream_handler)
 
-    file_handler = logging.FileHandler(LOG_DIR / "assignment.log", encoding="utf-8")
+    file_handler = logging.FileHandler(LOG_DIR / "assignment.log", mode="a", encoding="utf-8")
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)
 
