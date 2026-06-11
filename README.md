@@ -1,10 +1,57 @@
-# CSCN8020 Assignment 1
+# CSCN8020 – Assignment 1
+Reinforcement Learning (Gridworld + Monte Carlo + Importance Sampling)
 
-This workspace contains the full assignment notebook and the source code structure used for the reinforcement learning implementation.
+This repository contains my full solution for **CSCN8020 Assignment 1**.  
+All problems are implemented in a single Jupyter Notebook, with supporting Python modules stored in the `src/` folder.
 
-Structure:
-- CSCN8020_Assignment1.ipynb
-- src/
-  - environments.py
-  - agents.py
-  - utils.py
+---
+
+## 📁 Repository Structure
+
+CSCN8020_Assignment1/
+│
+├── CSCN8020_Assignment1.ipynb     # Full assignment notebook (Problems 1–4)
+├── README.md                      # Project description
+└── src/
+    ├── environments.py            # Gridworld environment classes
+    ├── agents.py                  # Value Iteration, In‑Place VI, MC agents
+    └── utils.py                   # Optional helper functions
+
+---
+
+## 🧠 Contents
+
+### Problem 1
+Policy Evaluation on a 2×2 Gridworld.
+
+### Problem 2
+Value Iteration on a 2×2 Gridworld (UP‑only policy).
+
+### Problem 3
+5×5 Gridworld:
+- Standard Value Iteration
+- In‑Place Value Iteration
+- Optimal Value Function V*
+- Optimal Policy π*
+- Comparison & discussion
+
+### Problem 4
+Off‑Policy Monte Carlo Prediction using:
+- Ordinary Importance Sampling
+- Weighted Importance Sampling
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository
+2. Open `CSCN8020_Assignment1.ipynb` in Jupyter or VS Code
+3. Run all cells from top to bottom
+
+All code uses only **Python + NumPy**.
+
+---
+
+## ✍️ Author
+**Lohith Reddy**  
+Conestoga College – Software Engineering Technology
